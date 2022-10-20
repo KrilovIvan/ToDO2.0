@@ -1,8 +1,19 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Приложение "ToDo2.0" разработано для того, чтобы устанавливать список дел на определенный промежуток времени и располагать их в зависимости от важности задачи
+
+## Поддерживаемые функции
+
+- **Простота**: Интерфейс разработан очень просто и понятно.
+-  **Архитектура**: При разработке архитектуры поддерживались основные паттерны проектирования .
+
+----
+
+Prettier: все, что может быть отформатировано роботом - должно быть отформатировано роботом. Все *.css, *.scss, *.js, *.jsx, *.ts, *.tsx, *.html, *.json и прочее, что поддерживает prettier
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
