@@ -1,0 +1,42 @@
+.todos {
+  margin-top: 0px;
+  overflow-y: auto;
+  height: 250px;
+}
+
+.todos-item {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-left: 2px solid blue;
+  position: relative;
+}
+.todos-item.completed::after {
+  position: absolute;
+  content: "";
+  left: 25px;
+  width: 800px;
+  top: 50%;
+  height: 2px;
+  background: blue;
+}
+
+.todos-item.important {
+  font-weight: 500;
+  color: red;
+}
+
+.todos-buttons {
+  margin-left: auto;
+  display: flex;
+}
+
+i {
+  margin: 0 5px;
+  z-index: 1;
+}
+i:hover {
+  transform: scale(1.5);
+  transition: 0.3s ease;
+}
